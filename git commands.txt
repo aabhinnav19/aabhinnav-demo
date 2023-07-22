@@ -6,8 +6,8 @@
  
 3. git add file name
    git add .           add's all the files
-
-   git rm --cached file name            to unstage the files
+   git restore --staged filename        to unstage the files
+   (git rm --cached filename            to unstage the files)
 
 
 4. git config --global user.name "user name"
@@ -61,6 +61,8 @@
 
 
 github token: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 -valid upto 18-08-2023
+
+just testing
 
 
 
