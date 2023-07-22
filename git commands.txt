@@ -1,0 +1,83 @@
+1. git init 
+
+
+2. git status
+
+ 
+3. git add file name
+   git add .           add's all the files
+
+   git rm --cached file name            to unstage the files
+
+
+4. git config --global user.name "user name"
+   git config --global user.email " email address"
+   git config --list       display's the list on screen
+
+
+5. git commit -m "commit message"
+
+
+6. git remote add origin "url"
+   
+   git push --set-upstream origin master
+
+
+7. git push origin (master)branchname/ git push
+
+
+8. git clone url            copy all from central repository to local repository
+
+
+9. git pull origin (master)branchname/ git pull       update the changes of cental repository to local repository 
+
+
+10. git branch branchname       creates a branch
+    git branch -d branchname	delete a branch
+    git branch                  lists the branches    
+    git checkout branchname     switchs to that branch 
+
+
+11. git log           displays commit history
+
+
+12. git stash          to save not committed work 
+    git stash pop      to continue not commited work
+    git stash-u        to save not commited work (for untracked files)
+     
+
+13. git revert
+
+
+14. git diff            compares two commit id's
+    git diff HEAD .
+
+
+15. git merge source branch name          (use pull requests for merging branches in github)
+
+
+16. git rebase source branch name          use for local repository only
+
+
+
+github token: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 -valid upto 18-08-2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
